@@ -12,6 +12,7 @@ def LBP_transform(img, npoints = 8, radius = 1.0, clock_wise = False, start_angl
         else: rotate counter-clockwise - positive angle
     :param start_angle: determine position of starting point 
     :param interpolation: should be 'nearest' or 'bilinear'
+    
     :return LBP transform matrix 
   '''
   assert isinstance(npoints, int)
